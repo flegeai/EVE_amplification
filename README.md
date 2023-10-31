@@ -11,7 +11,7 @@ So far, it includes 2 notebooks and 1 script:
 - bigwig_ratio.py: python scripts for calculating ratio of coverage between St3 abd St1 at each genome position by 10bp bins.
 
 ## data
--counts: Raw counts (number of reads) values obtained for each locus (evREP, proviral segments and random loci) at each stage (St1, St3) and at each condition GFP ou U16), obtained with FeatureCounts
--coverage: ratio of coverage between Stage 3 and Stage 3 in bigwig format
--flagstat: various metrics of reads alignments
--regions: GTF file summarizing the position of each locus (and corresponding groups if relevant)
+- counts: Raw counts (number of reads) values obtained for each locus (evREP, proviral segments and random loci) at each stage (St1, St3) and at each condition GFP ou U16), obtained with FeatureCounts
+- coverage: ratio of coverage between Stage 3 and Stage 3 in bigwig format
+- flagstat: various metrics of reads alignments
+- regions: GTF file summarizing the position of each locus (and corresponding groups if relevant)
